@@ -42,7 +42,6 @@ extension LoginView {
         dividerView.translatesAutoresizingMaskIntoConstraints = false
         dividerView.backgroundColor = .secondarySystemFill
         
-        
         passwordTextField.translatesAutoresizingMaskIntoConstraints = false
         passwordTextField.placeholder = "Password"
         passwordTextField.isSecureTextEntry = true

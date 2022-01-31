@@ -12,6 +12,7 @@
 		B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A27BBA27A44146005BE7FF /* LoginVC.swift */; };
 		B0A27BC027A44148005BE7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A27BBF27A44148005BE7FF /* Assets.xcassets */; };
 		B0A27BC327A44148005BE7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A27BC127A44148005BE7FF /* LaunchScreen.storyboard */; };
+		B0DEA3EB27A8194F00AFC0A2 /* OnboardingContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEA3EA27A8194F00AFC0A2 /* OnboardingContainerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B0A27BBF27A44148005BE7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A27BC227A44148005BE7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A27BC427A44148005BE7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0DEA3EA27A8194F00AFC0A2 /* OnboardingContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +75,20 @@
 		B0A27BB527A44146005BE7FF /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				B0DEA3E927A8190C00AFC0A2 /* Onboarding */,
 				B09CD6C227A445D50091082B /* Login */,
 				B09CD6C127A445A90091082B /* Supporting */,
 				B0A27BC427A44148005BE7FF /* Info.plist */,
 			);
 			path = Bankey;
+			sourceTree = "<group>";
+		};
+		B0DEA3E927A8190C00AFC0A2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEA3EA27A8194F00AFC0A2 /* OnboardingContainerVC.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B09CD6C427A445F50091082B /* LoginView.swift in Sources */,
+				B0DEA3EB27A8194F00AFC0A2 /* OnboardingContainerVC.swift in Sources */,
 				B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */,
 				B0A27BB727A44146005BE7FF /* AppDelegate.swift in Sources */,
 			);
