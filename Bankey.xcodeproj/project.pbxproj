@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B04284AB27A823D40063F84E /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04284AA27A823D40063F84E /* OnboardingVC.swift */; };
 		B09CD6C427A445F50091082B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD6C327A445F40091082B /* LoginView.swift */; };
 		B0A27BB727A44146005BE7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A27BB627A44146005BE7FF /* AppDelegate.swift */; };
 		B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A27BBA27A44146005BE7FF /* LoginVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B04284AA27A823D40063F84E /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		B09CD6C327A445F40091082B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B0A27BB327A44146005BE7FF /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A27BB627A44146005BE7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,9 +77,9 @@
 		B0A27BB527A44146005BE7FF /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				B09CD6C127A445A90091082B /* Supporting */,
 				B0DEA3E927A8190C00AFC0A2 /* Onboarding */,
 				B09CD6C227A445D50091082B /* Login */,
-				B09CD6C127A445A90091082B /* Supporting */,
 				B0A27BC427A44148005BE7FF /* Info.plist */,
 			);
 			path = Bankey;
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B0DEA3EA27A8194F00AFC0A2 /* OnboardingContainerVC.swift */,
+				B04284AA27A823D40063F84E /* OnboardingVC.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				B09CD6C427A445F50091082B /* LoginView.swift in Sources */,
 				B0DEA3EB27A8194F00AFC0A2 /* OnboardingContainerVC.swift in Sources */,
+				B04284AB27A823D40063F84E /* OnboardingVC.swift in Sources */,
 				B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */,
 				B0A27BB727A44146005BE7FF /* AppDelegate.swift in Sources */,
 			);
