@@ -55,12 +55,12 @@ class OnboardingContainerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configure()
+        setup()
         style()
         layout()
     }
     
-    private func configure() {
+    private func setup() {
         view.backgroundColor = .systemPurple
         
         addChild(pageViewController)
