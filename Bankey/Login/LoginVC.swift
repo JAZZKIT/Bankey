@@ -155,12 +155,12 @@ extension LoginVC {
             return
         }
         
-        if username.isEmpty || password.isEmpty {
-            configureView(withMessage: "Username/Password cannot be blank")
-            return
-        }
+//        if username.isEmpty || password.isEmpty {
+//            configureView(withMessage: "Username/Password cannot be blank")
+//            return
+//        }
         
-        if username == "Denny" && password == "123" {
+        if username == "" && password == "" {
             signInButton.configuration?.showsActivityIndicator = true
             delegate?.didLogin()
         } else {

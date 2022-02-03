@@ -22,12 +22,17 @@
 		B06A53B727AAEA2100C3CE18 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53B327AAEA2100C3CE18 /* AccountSummaryHeaderView.swift */; };
 		B06A53BA27AAEA3400C3CE18 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53B827AAEA3400C3CE18 /* CurrencyFormatter.swift */; };
 		B06A53BB27AAEA3400C3CE18 /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53B927AAEA3400C3CE18 /* Decimal+Utils.swift */; };
-		B06A53BE27AAEA5800C3CE18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53BD27AAEA5800C3CE18 /* ViewModel.swift */; };
+		B06A53BE27AAEA5800C3CE18 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53BD27AAEA5800C3CE18 /* AccountInfo.swift */; };
 		B06A53CE27AAEC0200C3CE18 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53BF27AAEBDD00C3CE18 /* CurrencyFormatter.swift */; };
 		B06A53D027AAF8EF00C3CE18 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53CF27AAF8EF00C3CE18 /* NSNotificationName.swift */; };
 		B06A53D227AAFED200C3CE18 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A53D127AAFED200C3CE18 /* UITextField+SecureToggle.swift */; };
 		B081044E27AC06DC00EDA7B8 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081044D27AC06DC00EDA7B8 /* ShakeyBellView.swift */; };
 		B08913C127AAB538008E323B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B08E00B627AC29EA00846221 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00B527AC29EA00846221 /* User.swift */; };
+		B08E00B827AC2A6C00846221 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00B727AC2A6C00846221 /* Date+Utils.swift */; };
+		B08E00BA27AC2B9D00846221 /* AccountSummaryVC+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00B927AC2B9D00846221 /* AccountSummaryVC+Networking.swift */; };
+		B08E00BC27AC2C4A00846221 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00BB27AC2C4A00846221 /* Profile.swift */; };
+		B08E00BF27AC33B200846221 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00BE27AC33B200846221 /* Account.swift */; };
 		B09CD6C427A445F50091082B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD6C327A445F40091082B /* LoginView.swift */; };
 		B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A27BBA27A44146005BE7FF /* LoginVC.swift */; };
 		B0A27BC027A44148005BE7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A27BBF27A44148005BE7FF /* Assets.xcassets */; };
@@ -58,12 +63,17 @@
 		B06A53B327AAEA2100C3CE18 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		B06A53B827AAEA3400C3CE18 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		B06A53B927AAEA3400C3CE18 /* Decimal+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
-		B06A53BD27AAEA5800C3CE18 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B06A53BD27AAEA5800C3CE18 /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
 		B06A53BF27AAEBDD00C3CE18 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		B06A53C527AAEBFB00C3CE18 /* BankeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06A53CF27AAF8EF00C3CE18 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		B06A53D127AAFED200C3CE18 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		B081044D27AC06DC00EDA7B8 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		B08E00B527AC29EA00846221 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B08E00B727AC2A6C00846221 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		B08E00B927AC2B9D00846221 /* AccountSummaryVC+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryVC+Networking.swift"; sourceTree = "<group>"; };
+		B08E00BB27AC2C4A00846221 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B08E00BE27AC33B200846221 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		B09CD6C327A445F40091082B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B0A27BB327A44146005BE7FF /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A27BBA27A44146005BE7FF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -100,6 +110,7 @@
 				B04284B327A952260063F84E /* UIViewContoller+Utils.swift */,
 				B06A53CF27AAF8EF00C3CE18 /* NSNotificationName.swift */,
 				B06A53D127AAFED200C3CE18 /* UITextField+SecureToggle.swift */,
+				B08E00B727AC2A6C00846221 /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -108,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B06A53B027AAEA2100C3CE18 /* AccountSummaryVC.swift */,
+				B08E00B927AC2B9D00846221 /* AccountSummaryVC+Networking.swift */,
 				B06A53AE27AAEA2100C3CE18 /* Cells */,
 				B06A53B127AAEA2100C3CE18 /* Header */,
 			);
@@ -131,12 +143,13 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
-		B06A53BC27AAEA5800C3CE18 /* Model */ = {
+		B06A53BC27AAEA5800C3CE18 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B06A53BD27AAEA5800C3CE18 /* ViewModel.swift */,
+				B08E00BB27AC2C4A00846221 /* Profile.swift */,
+				B08E00BE27AC33B200846221 /* Account.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B06A53C627AAEBFB00C3CE18 /* BankeyTests */ = {
@@ -153,6 +166,15 @@
 				B081044D27AC06DC00EDA7B8 /* ShakeyBellView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B08E00BD27AC337E00846221 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B06A53BD27AAEA5800C3CE18 /* AccountInfo.swift */,
+				B08E00B527AC29EA00846221 /* User.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		B09CD6C127A445A90091082B /* Supporting */ = {
@@ -197,7 +219,8 @@
 			children = (
 				B06A53AB27AAEA0E00C3CE18 /* AppDelegate.swift */,
 				B04284B527A954450063F84E /* MainVC.swift */,
-				B06A53BC27AAEA5800C3CE18 /* Model */,
+				B06A53BC27AAEA5800C3CE18 /* Models */,
+				B08E00BD27AC337E00846221 /* ViewModels */,
 				B06A53AD27AAEA2100C3CE18 /* AccountSummary */,
 				B09CD6C127A445A90091082B /* Supporting */,
 				B09CD6C227A445D50091082B /* Login */,
@@ -329,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06A53D227AAFED200C3CE18 /* UITextField+SecureToggle.swift in Sources */,
+				B08E00BF27AC33B200846221 /* Account.swift in Sources */,
 				B06A53D027AAF8EF00C3CE18 /* NSNotificationName.swift in Sources */,
 				B06A53BB27AAEA3400C3CE18 /* Decimal+Utils.swift in Sources */,
 				B06A53B727AAEA2100C3CE18 /* AccountSummaryHeaderView.swift in Sources */,
@@ -336,12 +360,16 @@
 				B06A53AC27AAEA0E00C3CE18 /* AppDelegate.swift in Sources */,
 				B06A53B427AAEA2100C3CE18 /* AccountSummaryCell.swift in Sources */,
 				B09CD6C427A445F50091082B /* LoginView.swift in Sources */,
+				B08E00B827AC2A6C00846221 /* Date+Utils.swift in Sources */,
 				B081044E27AC06DC00EDA7B8 /* ShakeyBellView.swift in Sources */,
 				B06A53B527AAEA2100C3CE18 /* AccountSummaryVC.swift in Sources */,
+				B08E00B627AC29EA00846221 /* User.swift in Sources */,
 				B04284B027A848CD0063F84E /* LocalState.swift in Sources */,
+				B08E00BA27AC2B9D00846221 /* AccountSummaryVC+Networking.swift in Sources */,
 				B04284AD27A842240063F84E /* DummyViewController.swift in Sources */,
 				B04284BB27A970B10063F84E /* (null) in Sources */,
-				B06A53BE27AAEA5800C3CE18 /* ViewModel.swift in Sources */,
+				B08E00BC27AC2C4A00846221 /* Profile.swift in Sources */,
+				B06A53BE27AAEA5800C3CE18 /* AccountInfo.swift in Sources */,
 				B08913C127AAB538008E323B /* (null) in Sources */,
 				B0DEA3EB27A8194F00AFC0A2 /* OnboardingContainerVC.swift in Sources */,
 				B04284B627A954450063F84E /* MainVC.swift in Sources */,

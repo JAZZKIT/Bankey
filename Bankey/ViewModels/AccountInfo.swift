@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum AccountType: String {
+enum AccountType: String, Codable {
     case Banking
     case CreditCard
     case Investment
 }
 
-struct ViewModel {
+struct AccountInfo {
     let accountType: AccountType
     let accountName: String
     let balance: Decimal

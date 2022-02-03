@@ -11,6 +11,11 @@ class AccountSummaryHeaderView: UIView {
     
     @IBOutlet var contentView: UIView!
     
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
     let shakeBellView = ShakeyBellView()
     
     override init(frame: CGRect) {
@@ -51,5 +56,11 @@ class AccountSummaryHeaderView: UIView {
             shakeBellView.trailingAnchor.constraint(equalTo: trailingAnchor),
             shakeBellView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
+    }
+    
+    func configure(user: User) {
+        welcomeLabel.text = user.welcomeMessage
+        nameLabel.text = user.name
+        dateLabel.text = user.dateFormatted
     }
 }

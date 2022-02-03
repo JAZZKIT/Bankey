@@ -19,7 +19,7 @@ class AccountSummaryCell: UITableViewCell {
     
     let chevronImageView = UIImageView()
     
-    let viewModel: ViewModel? = nil
+    let AccountViewModel: AccountInfo? = nil
     
     static let reuseID = "AccountSummaryCell"
     static let rowHeight: CGFloat = 112
@@ -125,7 +125,7 @@ extension AccountSummaryCell {
 
 extension AccountSummaryCell {
     
-    func configure(with vm: ViewModel) {
+    func configure(with vm: AccountInfo) {
         typeLabel.text = vm.accountType.rawValue
         nameLabel.text = vm.accountName
         balanceAmountLabel.attributedText = vm.balanceAsAttributedString
