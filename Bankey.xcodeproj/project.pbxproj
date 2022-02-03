@@ -33,6 +33,8 @@
 		B08E00BA27AC2B9D00846221 /* AccountSummaryVC+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00B927AC2B9D00846221 /* AccountSummaryVC+Networking.swift */; };
 		B08E00BC27AC2C4A00846221 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00BB27AC2C4A00846221 /* Profile.swift */; };
 		B08E00BF27AC33B200846221 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00BE27AC33B200846221 /* Account.swift */; };
+		B08E00C327AC3B7E00846221 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00C227AC3B7E00846221 /* ProfileTests.swift */; };
+		B08E00C527AC3C5000846221 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08E00C427AC3C5000846221 /* AccountTests.swift */; };
 		B09CD6C427A445F50091082B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09CD6C327A445F40091082B /* LoginView.swift */; };
 		B0A27BBB27A44146005BE7FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A27BBA27A44146005BE7FF /* LoginVC.swift */; };
 		B0A27BC027A44148005BE7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A27BBF27A44148005BE7FF /* Assets.xcassets */; };
@@ -74,6 +76,8 @@
 		B08E00B927AC2B9D00846221 /* AccountSummaryVC+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryVC+Networking.swift"; sourceTree = "<group>"; };
 		B08E00BB27AC2C4A00846221 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		B08E00BE27AC33B200846221 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		B08E00C227AC3B7E00846221 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		B08E00C427AC3C5000846221 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		B09CD6C327A445F40091082B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B0A27BB327A44146005BE7FF /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A27BBA27A44146005BE7FF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -155,7 +159,8 @@
 		B06A53C627AAEBFB00C3CE18 /* BankeyTests */ = {
 			isa = PBXGroup;
 			children = (
-				B06A53BF27AAEBDD00C3CE18 /* CurrencyFormatter.swift */,
+				B08E00C127AC3B5700846221 /* AccountSummary */,
+				B08E00C027AC3B4E00846221 /* Utils */,
 			);
 			path = BankeyTests;
 			sourceTree = "<group>";
@@ -175,6 +180,23 @@
 				B08E00B527AC29EA00846221 /* User.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B08E00C027AC3B4E00846221 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B06A53BF27AAEBDD00C3CE18 /* CurrencyFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B08E00C127AC3B5700846221 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				B08E00C227AC3B7E00846221 /* ProfileTests.swift */,
+				B08E00C427AC3C5000846221 /* AccountTests.swift */,
+			);
+			path = AccountSummary;
 			sourceTree = "<group>";
 		};
 		B09CD6C127A445A90091082B /* Supporting */ = {
@@ -344,6 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06A53CE27AAEC0200C3CE18 /* CurrencyFormatter.swift in Sources */,
+				B08E00C527AC3C5000846221 /* AccountTests.swift in Sources */,
+				B08E00C327AC3B7E00846221 /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
