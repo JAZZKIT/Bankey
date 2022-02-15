@@ -11,7 +11,7 @@ struct User {
     let welcomeMessage: String
     let name: String
     let date: Date
-    
+
     var dateFormatted: String {
         return date.monthDayYearString
     }

@@ -11,7 +11,7 @@ class LocalState {
     private enum Keys: String {
         case hasOnboarded
     }
-    
+
     static var hasOnboarded: Bool {
         get {
             return UserDefaults.standard.bool(forKey: Keys.hasOnboarded.rawValue)

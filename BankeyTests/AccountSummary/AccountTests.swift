@@ -11,11 +11,11 @@ import XCTest
 @testable import Bankey
 
 class AccountTests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
     }
-    
+
     func testCanParse() throws {
         let json = """
          [
@@ -40,17 +40,16 @@ class AccountTests: XCTestCase {
             let data = json.data(using: .utf8)!
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
-            let result = try! decoder.decode([Account].self, from: data)
-        
+            let result = try! decoder.decode([Account].self, from: data) // swiftlint:disable:this force_try
+
             XCTAssertEqual(result.count, 2)
-        
+
             let account1 = result[0]
             XCTAssertEqual(account1.id, "1")
             XCTAssertEqual(account1.type, AccountType.Banking)
             XCTAssertEqual(account1.name, "Basic Savings")
             XCTAssertEqual(account1.amount, 929466.23)
             XCTAssertEqual(account1.createdDateTime.monthDayYearString, "Jun 21, 2010")
-        
-        
+
     }
 }

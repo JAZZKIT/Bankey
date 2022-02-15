@@ -294,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A27BC727A44148005BE7FF /* Build configuration list for PBXNativeTarget "Bankey" */;
 			buildPhases = (
+				B065CEB127BC1DD000AA0394 /* Run SwiftLint */,
 				B0A27BAF27A44146005BE7FF /* Sources */,
 				B0A27BB027A44146005BE7FF /* Frameworks */,
 				B0A27BB127A44146005BE7FF /* Resources */,
@@ -365,6 +366,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B065CEB127BC1DD000AA0394 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B06A53C127AAEBFB00C3CE18 /* Sources */ = {
