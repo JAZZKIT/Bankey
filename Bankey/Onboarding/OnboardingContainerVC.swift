@@ -7,8 +7,6 @@
 
 import UIKit
 
-import UIKit
-
 protocol OnboardingContainerVCDelegate: AnyObject {
     func didFinishOnboarding()
 }

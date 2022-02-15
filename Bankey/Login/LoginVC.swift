@@ -34,7 +34,15 @@ class LoginVC: UIViewController {
             loginView.usernameTextField.text = newValue
         }
     }
-    var password: String? { return loginView.passwordTextField.text }
+    var password: String? {
+        get {
+            return loginView.passwordTextField.text
+        }
+        set {
+            loginView.passwordTextField.text = newValue
+        }
+        
+    }
     
     // animation
     var leadingEdgeOnScreen: CGFloat = 16
@@ -57,12 +65,12 @@ class LoginVC: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         signInButton.configuration?.showsActivityIndicator = false
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         username = ""
+        password = ""
     }
 }
 
@@ -138,7 +146,6 @@ extension LoginVC {
             errorMessageLabel.leadingAnchor.constraint(equalTo: loginView.leadingAnchor),
             errorMessageLabel.trailingAnchor.constraint(equalTo: loginView.trailingAnchor),
         ])
-        
     }
 }
 
